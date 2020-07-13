@@ -1,0 +1,35 @@
+{
+  "name": "graphql-express",
+  "version": "1.0.0",
+  "description": "GraphQL Tutorial",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmiyazaki6499/graphql-express.git"
+  },
+  "keywords": [
+    "graphql",
+    "express"
+  ],
+  "author": "Ryuichi Miyazaki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rmiyazaki6499/graphql-express/issues"
+  },
+  "homepage": "https://github.com/rmiyazaki6499/graphql-express#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-tag": "^2.10.4",
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4"
+  }
+}
