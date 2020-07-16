@@ -21,6 +21,17 @@ const schema = buildASTSchema(gql`
       firstName: String
       lastName: String
   }
+
+  # Mutations
+  type Mutation {
+    submitPost(input: PostInput!): Post
+    deletePost(id: ID!): Boolean
+  }
+
+  input PostInput {
+    id: ID
+    body: String!
+  }
 `)
 
 module.exports = schema
