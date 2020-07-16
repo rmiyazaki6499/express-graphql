@@ -50,7 +50,11 @@ const initializeData = () => {
 
 initializeData()
 
-app.use('/graphql', graphqlHTTP({ schema, rootValue }))
+app.use('/graphql', graphqlHTTP({
+    schema,
+    rootValue,
+    graphiql: true
+}))
 
 const port = process.env.PORT || 4000
 app.listen(port)
