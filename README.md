@@ -49,7 +49,7 @@ An example GraphQL server with Express.
 
   **This may take a few moments**
   
-  Navigate to http://localhost:4000/graphql to view the server on the locally.
+  Navigate to http://localhost:4000/graphql to view the server locally.
 It should look something like this:
 
 - Try the query:
