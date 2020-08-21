@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  graphql-express:
+    build: '.'
+    tty: true
+    stdin_open: true
+    ports:
+      - '4000:4000'

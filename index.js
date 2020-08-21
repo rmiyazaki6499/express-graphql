@@ -3,7 +3,7 @@ const cors = require('cors')
 const { graphqlHTTP } = require('express-graphql')
 const gql = require('graphql-tag')
 const schema = require('./schemas/dataSchema')
-const uuid = require('uuid/v4')
+const uuid = require('uuid')
 
 const app = express()
 
