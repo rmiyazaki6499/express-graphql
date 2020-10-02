@@ -43,7 +43,7 @@ An example GraphQL server with Express.
   - Go into the project directory to build and run the container with:
 
   ```
-  $ cd tour-of-heros/
+  $ cd graphql-express/
   $ docker-compose up -d --build
   ```
 
